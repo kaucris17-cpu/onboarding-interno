@@ -1,18 +1,24 @@
 :root{
-  --bg:#0b0f14;
-  --card:#111823;
-  --muted:#9aa6b2;
-  --text:#e8eef5;
-  --accent:#6ea8fe;
-  --danger:#ff6b6b;
-  --ok:#51cf66;
-  --border:rgba(255,255,255,.08);
-  --shadow: 0 12px 30px rgba(0,0,0,.35);
+  --bg:#ffffff;
+  --card:#ffffff;
+  --muted:#6b7280;
+  --text:#1f2937;
+
+  --accent:#7c3aed;
+  --accent-soft:#ede9fe;
+
+  --danger:#ef4444;
+  --ok:#22c55e;
+
+  --border:#e5e7eb;
+  --shadow: 0 10px 25px rgba(124,58,237,.08);
+
   --radius:16px;
   --pad:16px;
   --pad2:22px;
   --max:1100px;
-  --font: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+
+  --font:'Outfit', sans-serif;
 }
 
 *{ box-sizing:border-box; }
@@ -21,9 +27,7 @@ body{
   margin:0;
   font-family:var(--font);
   color:var(--text);
-  background: radial-gradient(1200px 700px at 15% 10%, rgba(110,168,254,.18), transparent 60%),
-              radial-gradient(1000px 700px at 85% 20%, rgba(81,207,102,.10), transparent 55%),
-              var(--bg);
+  background: var(--bg);
 }
 
 a{ color:var(--accent); text-decoration:none; }
@@ -78,19 +82,31 @@ a:hover{ text-decoration:underline; }
 
 .btn{
   border:1px solid var(--border);
-  background: rgba(255,255,255,.04);
+  background:#ffffff;
   color:var(--text);
-  padding:10px 12px;
+  padding:10px 14px;
   border-radius:12px;
   cursor:pointer;
-  transition: transform .06s ease, background .15s ease, border-color .15s ease;
   font-size:13px;
+  transition:.2s ease;
 }
-.btn:hover{ background: rgba(255,255,255,.06); border-color: rgba(255,255,255,.12); }
-.btn:active{ transform: translateY(1px); }
-.btn.primary{ background: rgba(110,168,254,.18); border-color: rgba(110,168,254,.35); }
-.btn.danger{ background: rgba(255,107,107,.13); border-color: rgba(255,107,107,.3); }
-.btn.ghost{ background: transparent; }
+
+.btn:hover{
+  background:var(--accent-soft);
+  border-color:var(--accent);
+}
+
+.btn.primary{
+  background:var(--accent);
+  border-color:var(--accent);
+  color:#ffffff;
+}
+
+.btn.danger{
+  background:var(--danger);
+  border-color:var(--danger);
+  color:#ffffff;
+}
 
 .grid{
   display:grid;
@@ -102,7 +118,7 @@ a:hover{ text-decoration:underline; }
 }
 
 .card{
-  background: rgba(17,24,35,.88);
+  background: var(--card);
   border:1px solid var(--border);
   border-radius: var(--radius);
   padding: var(--pad2);
@@ -147,7 +163,7 @@ a:hover{ text-decoration:underline; }
 .progressbar > div{
   height:100%;
   width:0%;
-  background: linear-gradient(90deg, rgba(110,168,254,.95), rgba(81,207,102,.85));
+  background: linear-gradient(90deg, #7c3aed, #a78bfa);
   transition: width .25s ease;
 }
 
