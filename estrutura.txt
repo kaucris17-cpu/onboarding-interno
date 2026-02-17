@@ -1,0 +1,25 @@
+**//index.html
+**//dashboard.html
+**///admin.html
+**///assets/
+  css
+    styles.css
+  js
+    appConfig.js
+    storage.js
+    apiAdapter.js
+    seed.js
+    auth.js
+    roles.js
+    content.js
+    progress.js
+    quizzes.js
+    assistantProvider.js
+    assistant.js
+    ui.js
+    dashboard.js
+    admin.js
+**///data/
+  users.json
+  contents.json
+  quizzes.json

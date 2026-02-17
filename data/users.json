@@ -1,0 +1,38 @@
+[
+  {
+    "id": "u_admin_001",
+    "name": "Admin Geral",
+    "email": "admin@ecommercepuro.com.br",
+    "password": "123456",
+    "role": "admin",
+    "active": true,
+    "unit": "Ecommerce Puro",
+    "sector": "Geral",
+    "jobTitle": "Admin",
+    "createdAt": "2026-02-01T10:00:00.000Z"
+  },
+  {
+    "id": "u_polo_cad_001",
+    "name": "Auxiliar de Cadastro",
+    "email": "auxiliar.cadastro@polo.com.br",
+    "password": "123456",
+    "role": "user",
+    "active": true,
+    "unit": "Polo",
+    "sector": "Cadastro",
+    "jobTitle": "Auxiliar de Cadastro",
+    "createdAt": "2026-02-01T10:00:00.000Z"
+  },
+  {
+    "id": "u_ep_cs_001",
+    "name": "Analista de CS",
+    "email": "analista.cs@ecommercepuro.com.br",
+    "password": "123456",
+    "role": "user",
+    "active": true,
+    "unit": "Ecommerce Puro",
+    "sector": "CS",
+    "jobTitle": "Analista de CS",
+    "createdAt": "2026-02-01T10:00:00.000Z"
+  }
+]

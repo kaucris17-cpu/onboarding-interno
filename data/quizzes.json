@@ -1,0 +1,92 @@
+[
+  {
+    "id": "q_final_cadastro_polo",
+    "kind": "final",
+    "title": "Avaliação final - Cadastro (Polo)",
+    "description": "Liberada após 100% dos obrigatórios do cargo.",
+    "unit": "Polo",
+    "sector": "Cadastro",
+    "jobTitles": ["Auxiliar de Cadastro"],
+    "minScorePercent": 70,
+    "recurrenceDays": 0,
+    "active": true,
+    "questions": [
+      {
+        "id": "cad_1",
+        "prompt": "Qual objetivo principal do checklist de qualidade?",
+        "options": ["Reduzir retrabalho", "Aumentar burocracia", "Remover validações", "Ignorar padrões"],
+        "correctIndex": 0
+      },
+      {
+        "id": "cad_2",
+        "prompt": "Um cadastro inconsistente afeta principalmente:",
+        "options": ["Qualidade e experiência", "Nada muda", "Apenas estética", "Somente o financeiro"],
+        "correctIndex": 0
+      },
+      {
+        "id": "cad_3",
+        "prompt": "Padrões servem para:",
+        "options": ["Consistência e velocidade", "Variar sempre", "Criar exceções", "Evitar documentação"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "q_final_cs_ep",
+    "kind": "final",
+    "title": "Avaliação final - CS (Ecommerce Puro)",
+    "description": "Liberada após 100% dos obrigatórios do cargo.",
+    "unit": "Ecommerce Puro",
+    "sector": "CS",
+    "jobTitles": ["Analista de CS"],
+    "minScorePercent": 70,
+    "recurrenceDays": 0,
+    "active": true,
+    "questions": [
+      {
+        "id": "csf_1",
+        "prompt": "Um bom atendimento prioriza:",
+        "options": ["Clareza e resolução", "Respostas vagas", "Demora proposital", "Evitar registros"],
+        "correctIndex": 0
+      },
+      {
+        "id": "csf_2",
+        "prompt": "Macros e base de conhecimento ajudam a:",
+        "options": ["Padronizar e ganhar tempo", "Esconder problemas", "Eliminar feedback", "Ignorar SLA"],
+        "correctIndex": 0
+      },
+      {
+        "id": "csf_3",
+        "prompt": "Escalonamento deve ocorrer quando:",
+        "options": ["Há necessidade de nível superior", "Sempre no primeiro contato", "Nunca", "Somente após 30 dias"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "q_periodic_cs_ep_15d",
+    "kind": "periodic",
+    "title": "Prova periódica - CS (15 dias)",
+    "description": "Revisão recorrente de boas práticas e processos.",
+    "unit": "Ecommerce Puro",
+    "sector": "CS",
+    "jobTitles": ["Analista de CS"],
+    "minScorePercent": 70,
+    "recurrenceDays": 15,
+    "active": true,
+    "questions": [
+      {
+        "id": "csp_1",
+        "prompt": "O que registrar ao finalizar uma tratativa?",
+        "options": ["Resumo e próxima ação", "Somente emojis", "Nada", "Apenas assunto"],
+        "correctIndex": 0
+      },
+      {
+        "id": "csp_2",
+        "prompt": "SLA interno serve para:",
+        "options": ["Dar previsibilidade", "Impedir atendimento", "Aumentar filas", "Remover prioridades"],
+        "correctIndex": 0
+      }
+    ]
+  }
+]
